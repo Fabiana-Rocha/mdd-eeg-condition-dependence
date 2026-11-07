@@ -1,0 +1,7 @@
+domain,n_testable,n_detected,n_dependent,prop_dependent_all,prop_dependent_detected,n_equivalent,prop_equivalent_all,prop_equivalent_detected,n_inconclusive,prop_inconclusive_all,prop_inconclusive_detected
+asymmetry,56,6,0,0.0,0.0,0,0.0,0.0,56,1.0,1.0
+complexity,96,72,0,0.0,0.0,0,0.0,0.0,96,1.0,1.0
+connectivity,80,45,0,0.0,0.0,0,0.0,0.0,80,1.0,1.0
+ratio,96,56,0,0.0,0.0,0,0.0,0.0,96,1.0,1.0
+spectral,408,168,0,0.0,0.0,0,0.0,0.0,408,1.0,1.0
+time-frequency,480,144,0,0.0,0.0,0,0.0,0.0,480,1.0,1.0

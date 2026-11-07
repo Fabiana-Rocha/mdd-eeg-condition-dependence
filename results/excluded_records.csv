@@ -1,0 +1,16 @@
+group,subject,condition,reason
+HC,30,EC,signal identical to HC 27
+HC,30,EO,signal identical to HC 27
+HC,30,TASK,signal identical to HC 27
+MDD,34,EC,signal identical to MDD 33
+MDD,34,EO,signal identical to MDD 33
+MDD,34,TASK,signal identical to MDD 33
+HC,1,TASK,copy of the shared TASK record attributed to HC 4
+HC,2,TASK,copy of the shared TASK record attributed to HC 4
+HC,3,TASK,copy of the shared TASK record attributed to HC 4
+HC,7,TASK,copy of the shared TASK record attributed to HC 4
+HC,10,TASK,copy of the shared TASK record attributed to HC 4
+HC,11,TASK,copy of the shared TASK record attributed to HC 4
+HC,12,TASK,copy of the shared TASK record attributed to HC 4
+HC,17,TASK,copy of the shared TASK record attributed to HC 4
+HC,29,TASK,copy of the shared TASK record attributed to HC 4

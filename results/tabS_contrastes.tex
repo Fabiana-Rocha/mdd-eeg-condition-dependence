@@ -1,0 +1,47 @@
+\begin{table*}[!t]
+\caption{Between-condition contrasts of the MDD$-$HC difference, summarized by domain}
+\label{tabS_contrastes}
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.1}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llccccccc}
+\toprule
+\textbf{Domain} & \textbf{Contrast} & \textbf{$n$} & \textbf{Median $|\hat{c}|$} & \textbf{Max $|\hat{c}|$} & \textbf{Median SE} & \textbf{Median 90\% CI} & \textbf{90\% CI within} & \textbf{90\% CI within} \\
+ & & & & & & \textbf{half-width} & \textbf{$\pm 0.30$ SD} & \textbf{$\pm 0.50$ SD} \\
+\midrule
+Spectral & EO $-$ EC & 408 & 0.20 & 0.84 & 0.25 & 0.42 & 5 & 83 \\
+ & TASK $-$ EC &  & 0.22 & 0.88 & 0.25 & 0.42 & 5 & 97 \\
+ & TASK $-$ EO &  & 0.22 & 0.79 & 0.25 & 0.42 & 8 & 93 \\
+\addlinespace
+Time-frequency & EO $-$ EC & 480 & 0.19 & 0.93 & 0.27 & 0.45 & 0 & 83 \\
+ & TASK $-$ EC &  & 0.18 & 0.82 & 0.27 & 0.45 & 0 & 76 \\
+ & TASK $-$ EO &  & 0.22 & 1.10 & 0.27 & 0.45 & 0 & 46 \\
+\addlinespace
+Asymmetry & EO $-$ EC & 56 & 0.20 & 0.71 & 0.36 & 0.60 & 0 & 0 \\
+ & TASK $-$ EC &  & 0.26 & 0.78 & 0.36 & 0.60 & 0 & 1 \\
+ & TASK $-$ EO &  & 0.25 & 0.92 & 0.36 & 0.60 & 0 & 1 \\
+\addlinespace
+Band ratios & EO $-$ EC & 96 & 0.16 & 0.59 & 0.26 & 0.43 & 0 & 21 \\
+ & TASK $-$ EC &  & 0.39 & 0.85 & 0.26 & 0.43 & 0 & 12 \\
+ & TASK $-$ EO &  & 0.34 & 1.01 & 0.26 & 0.43 & 0 & 10 \\
+\addlinespace
+Complexity & EO $-$ EC & 96 & 0.09 & 0.51 & 0.18 & 0.30 & 21 & 66 \\
+ & TASK $-$ EC &  & 0.10 & 0.34 & 0.18 & 0.30 & 16 & 76 \\
+ & TASK $-$ EO &  & 0.14 & 0.46 & 0.18 & 0.30 & 11 & 70 \\
+\addlinespace
+Connectivity & EO $-$ EC & 80 & 0.26 & 0.61 & 0.35 & 0.58 & 0 & 1 \\
+ & TASK $-$ EC &  & 0.26 & 0.96 & 0.35 & 0.58 & 0 & 0 \\
+ & TASK $-$ EO &  & 0.21 & 0.83 & 0.35 & 0.58 & 0 & 0 \\
+\midrule
+All features & EO $-$ EC & 1216 & 0.19 & 0.93 & 0.27 & 0.44 & 26 & 254 \\
+ & TASK $-$ EC &  & 0.20 & 0.96 & 0.27 & 0.44 & 21 & 262 \\
+ & TASK $-$ EO &  & 0.22 & 1.10 & 0.27 & 0.44 & 19 & 220 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}
+\begin{minipage}{\textwidth}
+\scriptsize
+Each contrast is the change in the MDD$-$HC difference between two conditions, e.g.\ EO $-$ EC $= (\mathrm{MDD}-\mathrm{HC})_{\mathrm{EO}} - (\mathrm{MDD}-\mathrm{HC})_{\mathrm{EC}}$, estimated from the linear mixed model with random intercept per participant (REML), in standard-deviation units of the transformed and standardized feature; $t$ distribution with 78 degrees of freedom. The 90\% CI is the interval used by the equivalence test (TOST): a contrast is equivalent within $\pm\Delta$ when its 90\% CI lies inside $[-\Delta, +\Delta]$. The last two columns count features whose 90\% CI lies inside the margin before correction for multiple comparisons; global equivalence additionally requires all three contrasts and FDR correction across features (0 features at $\Delta = 0.30$). Estimates, SE, 90\% and 95\% CIs, $p$ values (Holm-adjusted within feature) and the smallest achievable margin for each of the 1,216 features are given in Supplementary Data~S1.
+\end{minipage}
+\end{table*}

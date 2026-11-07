@@ -1,0 +1,10 @@
+row,variable,condition,delta_mdd_all_hc,delta_mdd_contemp,delta_batch_jan_contemp
+a,Relative beta power (mean of 19 channels),EC,0.86,0.72,-0.17
+b,Relative beta power (T4),EC,0.93,0.69,-0.39
+c,Permutation entropy (mean of 19 channels),EC,-0.74,0.31,1.0
+a,Relative beta power (mean of 19 channels),EO,0.8,0.69,-0.39
+b,Relative beta power (T4),EO,0.79,0.46,-0.28
+c,Permutation entropy (mean of 19 channels),EO,-0.73,0.26,1.0
+a,Relative beta power (mean of 19 channels),TASK,0.87,0.79,-0.39
+b,Relative beta power (T4),TASK,0.92,0.72,-0.33
+c,Permutation entropy (mean of 19 channels),TASK,-0.69,0.36,1.0

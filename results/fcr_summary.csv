@@ -1,0 +1,4 @@
+condition,R,fcr_level_pct,excluding_zero,median_lower_limit_abs_delta
+EC,326,98.66,323,0.151
+EO,307,98.74,300,0.17
+TASK,349,98.56,332,0.149

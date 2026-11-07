@@ -1,0 +1,6 @@
+pattern,n,interaction_fdr,interaction_nominal,equivalent_fdr,interaction_nominal_pct
+all three conditions,175,0,17,0,9.7
+two conditions,141,0,12,0,8.5
+one condition only,175,0,9,0,5.1
+none,725,0,24,0,3.3
+total,1216,0,62,0,5.1

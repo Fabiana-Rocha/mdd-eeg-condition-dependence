@@ -1,0 +1,8 @@
+domain,n,EC,EO,TASK,any,all_three
+asymmetry,56,0,0,6,6,0
+complexity,96,58,67,70,72,58
+connectivity,80,28,18,36,45,11
+ratio,96,33,25,35,56,11
+spectral,408,113,110,136,168,71
+time-frequency,480,94,87,66,144,24
+total,1216,326,307,349,491,175

@@ -1,0 +1,164 @@
+{
+  "CONDITIONS": [
+    "EC",
+    "EO",
+    "TASK"
+  ],
+  "SFREQ": 256,
+  "UV_PER_V": 1000000.0,
+  "MIN_WINDOWS": 89,
+  "BLOCK_WINDOWS": 5,
+  "MIN_BLOCKS": 3,
+  "N_TARGET_PERCENTILE": 10,
+  "SEED": 42,
+  "ALPHA_FDR": 0.05,
+  "N_BOOT": 2000,
+  "BANDS": {
+    "delta": [
+      1,
+      4
+    ],
+    "theta": [
+      4,
+      8
+    ],
+    "alpha": [
+      8,
+      13
+    ],
+    "beta": [
+      13,
+      30
+    ],
+    "gamma": [
+      30,
+      45
+    ]
+  },
+  "ALPHA_SUB": {
+    "low_alpha": [
+      8,
+      10
+    ],
+    "high_alpha": [
+      10,
+      13
+    ]
+  },
+  "WELCH_NPERSEG": 256,
+  "SAMPEN_M": 2,
+  "SAMPEN_R_FAC": 0.2,
+  "PERMEN_ORDER": 3,
+  "PERMEN_DELAY": 1,
+  "HIGUCHI_KMAX": 10,
+  "CWT_WAVELET": "cmor1.5-1.0",
+  "CWT_N_FREQS_PER_BAND": 5,
+  "CWT_EDGE_CYCLES": 1.0,
+  "COHERENCE_NPERSEG": 512,
+  "CHANNEL_NAMES": [
+    "Fp1",
+    "Fp2",
+    "F7",
+    "F3",
+    "Fz",
+    "F4",
+    "F8",
+    "T3",
+    "C3",
+    "Cz",
+    "C4",
+    "T4",
+    "T5",
+    "P3",
+    "Pz",
+    "P4",
+    "T6",
+    "O1",
+    "O2"
+  ],
+  "REGIONS": {
+    "frontal": [
+      "Fp1",
+      "Fp2",
+      "F7",
+      "F3",
+      "Fz",
+      "F4",
+      "F8"
+    ],
+    "central": [
+      "C3",
+      "Cz",
+      "C4"
+    ],
+    "temporal": [
+      "T3",
+      "T4",
+      "T5",
+      "T6"
+    ],
+    "parietal": [
+      "P3",
+      "Pz",
+      "P4"
+    ],
+    "occipital": [
+      "O1",
+      "O2"
+    ]
+  },
+  "ASYMMETRY_PAIRS": {
+    "frontal_F4_F3": [
+      "F4",
+      "F3"
+    ],
+    "frontal_F8_F7": [
+      "F8",
+      "F7"
+    ],
+    "frontal_Fp2_Fp1": [
+      "Fp2",
+      "Fp1"
+    ],
+    "central_C4_C3": [
+      "C4",
+      "C3"
+    ],
+    "parietal_P4_P3": [
+      "P4",
+      "P3"
+    ],
+    "temporal_T4_T3": [
+      "T4",
+      "T3"
+    ],
+    "temporal_T6_T5": [
+      "T6",
+      "T5"
+    ],
+    "occipital_O2_O1": [
+      "O2",
+      "O1"
+    ]
+  },
+  "LEFT_CH": [
+    "Fp1",
+    "F7",
+    "F3",
+    "T3",
+    "C3",
+    "T5",
+    "P3",
+    "O1"
+  ],
+  "RIGHT_CH": [
+    "Fp2",
+    "F8",
+    "F4",
+    "T4",
+    "C4",
+    "T6",
+    "P4",
+    "O2"
+  ]
+}

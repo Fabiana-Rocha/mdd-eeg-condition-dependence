@@ -1,0 +1,7 @@
+domain,n_features,n_features_used,n_components,effective_fraction
+asymmetry,56,56,13,0.23214285714285715
+complexity,96,96,3,0.03125
+connectivity,80,80,11,0.1375
+ratio,96,96,7,0.07291666666666667
+spectral,408,408,12,0.029411764705882353
+time-frequency,480,480,16,0.03333333333333333
